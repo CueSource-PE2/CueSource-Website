@@ -50,18 +50,18 @@ body{
     
 }
 
-.two{
+.main-content{
     display: flex;
 
 }
-.two-left{
+.main-left{
     width:40vw;
     height: 100%;
     position: relative;
     z-index: 2;
     
 }
-.two-left h1{
+.main-left h1{
     font-size: 50px;
     line-height: 32px;
     color: #FFFFFF;
@@ -70,14 +70,14 @@ body{
     
 
 }
-.two-mini h3{
+.main-mini h3{
     margin-left: 80px;
     color: #FFFFFF;
     font-size: 25px;
     font-weight: 300;
     
 }
-.two-mini{
+.main-mini{
     width: 50vw;
     height: 600px;
     background-image: url(./images/line.png);
@@ -110,8 +110,19 @@ body{
     color: #569647;
     border: #569647 2px solid;
 }
-.two-right{
+.main-right{
     width: 60vw;
     display: flex;
     justify-content: center;
+}
+.rocket-bg{
+    position: relative;
+    z-index: -2;
+    margin-top: -250px;
+}
+
+.rocket{
+    position:absolute;
+    z-index: 2;
+    margin-top: -80px;
 }
