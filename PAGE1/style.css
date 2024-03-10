@@ -101,6 +101,17 @@ body{
     border-radius: 10px;
     border: none;
 }
+
+.btn2 button:hover{
+    scale: 1.05;
+    transition-duration: 1000 ease-in-out;
+}
+
+.btn2 button:active{
+    scale: 0.9;
+    transition-duration: 1000 ease-in-out;
+}
+
 #button1{
     background-color:#569647 ;
     color:#FFFFFF;
