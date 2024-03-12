@@ -8,6 +8,7 @@
     user-select: none;
     scrollbar-width: none;
     scroll-behavior: smooth;
+    
    
 }
 body{
@@ -170,4 +171,13 @@ body{
     align-items: center;
     border-radius: 40px;
     background-color: rgba(30, 30, 30, 3)
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    margin-left: 25rem;
+}
+.video{
+    display: flex;
+    justify-content: center;
 }
