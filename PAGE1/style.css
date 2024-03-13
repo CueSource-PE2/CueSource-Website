@@ -181,3 +181,18 @@ body{
     display: flex;
     justify-content: center;
 }
+.line3{
+    position: relative;
+    z-index: -2;
+}
+.astro2{
+    position: absolute;
+    left: 77%;
+    margin-top: 50px;
+    z-index: 4;
+    
+}
+.section3{
+    display: flex;
+    justify-content: end;
+}
