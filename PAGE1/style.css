@@ -187,7 +187,7 @@ body{
 }
 .astro2{
     position: absolute;
-    left: 77%;
+    left: 72%;
     margin-top: 50px;
     z-index: 4;
     
@@ -195,4 +195,37 @@ body{
 .section3{
     display: flex;
     justify-content: end;
+    margin-right: 50px;
+    
+}
+.satellite{
+    display: flex;
+    justify-content: end;
+    margin-left: 50px;
+    margin-top: -280px;
+}
+
+.left-satellite
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    z-index: 0;
+    
+}
+.upper{
+    color:#FFFFFF;
+    font-size: 45px;
+    margin-left: 170%;
+}
+.middle{
+    color:#FFFFFF;
+    font-size: 45px;
+    margin-left: 80%;
+}
+.lower{
+    color:#FFFFFF;
+    font-size: 45px;
+    margin-left: 40%;
 }
