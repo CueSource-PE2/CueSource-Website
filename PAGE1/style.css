@@ -187,7 +187,7 @@ body{
 }
 .astro2{
     position: absolute;
-    left: 72%;
+    left: 62%;
     margin-top: 50px;
     z-index: 4;
     
@@ -275,6 +275,20 @@ body{
     display: flex;
     width: 80vw;
     margin-left: 100px;
+    margin-bottom: 200px;
+    position: relative;
+    z-index: 20;
+}
+#bg-galaxy{
+    float: right;
+    justify-self: end;
+    height: 800px;
+    bottom:0%;
+    top:10%;
+    margin-left: 150px;
+    margin-top:-200px;
+    z-index: -20;
+    position: absolute;
 }
 .book-astro p{
     color: #FFFFFF;
@@ -293,3 +307,121 @@ body{
     width: 80vw;
     margin-bottom: 100px;
 }
+
+.explore{
+    display: flex; 
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 3rem;
+   
+}
+.explore h1{
+    font-size: 50px;
+    /* line-height: 70px;     */
+    color:#FFFFFF;
+   
+}
+.arrow-up{
+    background-color: #569647;
+    opacity: 0.7;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.up{
+    margin-left: 2rem ;
+    margin-top: 2rem;
+    /* height: 50px; */
+}
+.main-foot{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: -3rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    background-color: rgba(30, 30, 30, 3);
+    color: #FFFFFF;
+    height: 332px;
+}
+
+.main-foot h3{
+    font-size: 20px;
+    
+    
+}
+.main-foot a{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.main-foot a:hover{
+    opacity: 1;
+    /* font-weight:bold ; */
+    transition: 0.3s;
+}
+.cue{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: 36px;
+}
+.know-us{
+    display: flex;
+    flex-direction: column;
+     gap: 50px; 
+     margin-top: 4.1rem;  
+    
+}
+.legal{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.1rem; 
+}
+.legal h3{
+    margin-bottom: 3rem;
+}
+.legal a{
+    margin-bottom: 1.5rem;
+}
+
+.quick{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.1rem; 
+}
+.quick h3{
+    margin-bottom: 3rem;
+}
+.quick a{
+    margin-bottom: 1.5rem;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    margin-top: 4.1rem; 
+}
+.contact h3{
+    margin-bottom: 3rem;
+}
+.contact a{
+    margin-bottom: 1.5rem;
+}
+.foot-images{
+    display: flex;
+    gap: 2rem;
+}
+.foot-2{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: black;
+
+}
+
