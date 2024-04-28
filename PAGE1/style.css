@@ -27,14 +27,13 @@ body{
 
 .nav-bar{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
     padding: 20px 0;
     margin-bottom: 100px;
 }
 
 .left-nav{
-    width: 60vw;
+    width: 30vw;
 }
 
 .left-nav h2{
@@ -42,8 +41,9 @@ body{
 }
 .right-nav{
     display: flex;
+    width: 60vw;
     gap: 30px;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     
 }
@@ -119,11 +119,13 @@ body{
 #button1{
     background-color:#569647 ;
     color:#FFFFFF;
+    cursor: pointer;
 }
 #button2{
     background-color: #FFFFFF;
     color: #569647;
     border: #569647 2px solid;
+    cursor: pointer;
 }
 .main-right{
     width: 60vw;
